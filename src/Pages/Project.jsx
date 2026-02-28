@@ -38,13 +38,7 @@ const project = [
   }
 ];
 
-const students = [
-  { name: 'IRFAN UL HAQ', area: 'NST' },
-  { name: 'ADNAN', area: 'ASD' },
-  { name: 'SAMAR', area: 'PSD' },
-  { name: 'AMMAR', area: 'XYZ' },
-  { name: 'SHAHAB', area: 'ABC' },
-]
+
 
 const Project = () => {
   return (
@@ -95,13 +89,7 @@ const Project = () => {
           ))}
         </div>
 
-          {students.map((student) => (
-            <div className='bg-red-50 border p-5 rounded-2xl mb-[20px] flex items-center justify-between'>
-              <p className='bg-red-800 p-3 rounded-lg w-[max-content]'>Student Name is: {student.name}</p>
-              <p className='text-black'>Student Area is: {student.area}</p>
-            </div>
-          ))}
-
+        
       </div>
     </section>
   )
